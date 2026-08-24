@@ -13,7 +13,7 @@ The first frontend delivery focuses on the public entry experience and onboardin
 
 ## UI / Figma reference
 
-> **Figma design:** Add the team's shared Figma URL here before implementation starts: `PASTE_FIGMA_LINK_HERE`
+> **Figma design:** [Figma URL here](https://www.figma.com/design/G1k6B0IT9Ip7kLzmYLwsHX/agricapital-web-app?node-id=0-1&t=UA5AgUmVl7iqlT6i-1)
 
 The implementation should follow the provided AgriCapital UI direction: warm off-white backgrounds, dark green brand typography, restrained gold accents, serif display headings, clean form layouts, generous spacing, and responsive desktop/mobile behavior.
 
