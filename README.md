@@ -47,11 +47,11 @@ The stack is intentionally modern but lightweight so the team can move quickly w
 | Server/API state | **TanStack Query** | API requests, caching, loading/error states, and mutations |
 | HTTP | **fetch / thin API client** | Backend communication without unnecessary abstraction |
 | Local UI state | **Zustand** | Small cross-page state only where React state/context is insufficient |
-| Fonts | **next/font** | Optimized local/Google font loading while matching Figma |
+| Fonts | **next/font** | Optimized font loading while matching Figma |
 | Testing | **Vitest + React Testing Library** | Unit/component behavior tests |
 | E2E | **Playwright** | Critical onboarding and navigation flows |
 | Code quality | **ESLint + Prettier** | Consistent, maintainable code |
-| Deployment | **Vercel or existing team deployment target** | Production hosting; final target can follow team infrastructure |
+| Deployment | **Vercel or existing team deployment target** | Production hosting; final target follows team infrastructure |
 
 ### Architecture principles
 
@@ -160,7 +160,7 @@ If the project uses different script names, update this section together with th
 
 The frontend is expected to integrate with the AgriCapital backend repository:
 
-urlAgriCapital Backendhttps://github.com/tiangroupinv/agricapital-be-v1.0
+https://github.com/tiangroupinv/agricapital-be-v1.0
 
 Keep frontend API contracts aligned with backend authentication, user onboarding, verification, and role definitions. The frontend should not assume a backend endpoint exists until the contract is agreed and documented.
 
